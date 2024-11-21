@@ -154,23 +154,28 @@ body {
 }
 
 #mmb1:target ~ .mmb-all {
-	margin-left: 0;
+	transform: translateX(0);
+	transition: transform 0.6s;
 }
 
 #mmb2:target ~ .mmb-all {
-	margin-left: -1300px;
+	transform: translateX(-1300px);
+	transition: transform 0.6s;
 }
 
 #mmb3:target ~ .mmb-all {
-	margin-left: -2600px;
+	transform: translateX(-2600px);
+	transition: transform 0.6s;
 }
 
 #mmb4:target ~ .mmb-all {
-	margin-left: -3900px;
+	transform: translateX(-3900px);
+	transition: transform 0.6s;
 }
 
 #mmb5:target ~ .mmb-all {
-	margin-left: -5200px;
+	transform: translateX(-5200px);
+	transition: transform 0.6s;
 }
 
 .mmb-all {
@@ -184,7 +189,8 @@ body {
 	height: 300px;
 	border-radius: 40px;
 	width: 1200px;
-	background: #B21806;
+	background-color: #B21806;
+	background-image: url(../assets/ovr1.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -196,7 +202,8 @@ body {
 	height: 300px;
 	border-radius: 40px;
 	width: 1200px;
-	background: #3D4CF5;
+	background-color: #3D4CF5;
+	background-image: url(../assets/ovr2.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -208,7 +215,8 @@ body {
 	height: 300px;
 	border-radius: 40px;
 	width: 1200px;
-	background: #EF44EE;
+	background-color: #EF44EE;
+	background-image: url(../assets/ovr3.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -220,7 +228,8 @@ body {
 	height: 300px;
 	border-radius: 40px;
 	width: 1200px;
-	background: #391857;
+	background-color: #391857;
+	background-image: url(../assets/ovr4.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -232,50 +241,11 @@ body {
 	height: 300px;
 	border-radius: 40px;
 	width: 1200px;
-	background: #FCD537;
+	background-color: #FCD537;
+	background-image: url(../assets/ovr5.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-}
-
-.ovr-mmb1 {
-	position: absolute;
-	height: 300px;
-	border-radius: 20px;
-	width: 1200px;
-	z-index:1;
-}
-
-.ovr-mmb2 {
-	position: absolute;
-	height: 300px;
-	border-radius: 20px;
-	width: 1200px;
-	z-index:1;
-}
-
-.ovr-mmb3 {
-	position: absolute;
-	height: 300px;
-	border-radius: 20px;
-	width: 1200px;
-	z-index:1;
-}
-
-.ovr-mmb4 {
-	position: absolute;
-	height: 300px;
-	border-radius: 20px;
-	width: 1200px;
-	z-index:1;
-}
-
-.ovr-mmb5 {
-	position: absolute;
-	height: 300px;
-	border-radius: 20px;
-	width: 1200px;
-	z-index:1;
 }
 
 .lg-mmb {
